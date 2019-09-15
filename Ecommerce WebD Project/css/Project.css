@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 01-Feb-2019, 10:41:15 PM
+    Author     : Jana Anik
+*/
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+.navbart{
+    background-color: rgb(210,210,210);
+}
+
+.tcolor{
+    color: rgb(60,60,60);
+}
+
+.foot {
+    /*padding: 10px 0;*/
+    background-color: rgb(90,90,90);
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+/*footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}*/
+
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+.cont1 {
+    /*height: 15px;*/
+    background-color: grey;
+}
+
+.product-grid{font-family:Raleway,sans-serif;text-align:center;padding:0 0 72px;border:1px solid rgba(0,0,0,.1);overflow:hidden;position:relative;z-index:1}
+.product-grid .product-image{position:relative;transition:all .3s ease 0s}
+.product-grid .product-image a{display:block}
+.product-grid .product-image img{width:100%;height:auto}
+.product-grid .pic-1{opacity:1;transition:all .3s ease-out 0s}
+.product-grid:hover .pic-1{opacity:1}
+.product-grid .pic-2{opacity:0;position:absolute;top:0;left:0;transition:all .3s ease-out 0s}
+.product-grid:hover .pic-2{opacity:1}
+
+.form1 {
+    
+    height: 70px;
+}
+
+.bstyle {
+    font-family: comic sans;
+    color: rgb(65,65,65);
+}
+
+#btn1 {
+    float:right;
+}
+
+
+.panel-default > .panel-heading {
+    background-image: none;
+    background-color: rgb(210,210,210);
+    color: black;
+
+}
+
+
+.acolor{
+    color: white;
+}
+
+
